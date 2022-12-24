@@ -1,20 +1,23 @@
 {
-  "name": "checks-out-electron",
-  "version": "1.0.0",
-  "description": "The source code for starting an Electon based application. Following the \"Electron Saga\" blog series by Jace on dev.to",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ScriptJayT/Checks-out-Electron.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ScriptJayT/Checks-out-Electron/issues"
-  },
-  "homepage": "https://github.com/ScriptJayT/Checks-out-Electron#readme"
+	"name": "checks-out-electron",
+	"version": "1.0.0",
+	"description": "The source code for starting an Electon based application. Following the \"Electron Saga\" blog series by Jace on dev.to",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ScriptJayT/Checks-out-Electron.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ScriptJayT/Checks-out-Electron/issues"
+	},
+	"homepage": "https://github.com/ScriptJayT/Checks-out-Electron#readme",
+	"dependencies": {
+		"electron": "^22.0.0"
+	}
 }
