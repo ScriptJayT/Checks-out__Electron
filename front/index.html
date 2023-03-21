@@ -6,15 +6,40 @@
 
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <title>My Lab</title>
+   <title>My App</title>
 </head>
 
 <body>
-   <h1>Hello World</h1>
-   <script>
-      console.log(E_system.mode);
-      console.log(E_system.platform);
-   </script>
+  	<nav id="feature-nav" class="c-wrapper">
+		<ul>
+			<li>
+				<button sheet="home">
+					<span>Home</span>
+				</button>
+			</li>
+			<li>
+				<button sheet="todo">
+					<span>Todo</span>
+				</button>
+			</li>
+			<li>
+				<button sheet="tracker">
+					<span>Schema</span>
+				</button>
+			</li>
+		</ul>
+	</nav>
+	<div id="app-interface">
+		<header>
+			<content-slot></content-slot>
+		</header>
+		<main>
+			<content-slot></content-slot>
+		</main>
+		<footer>
+			<content-slot></content-slot>
+		</footer>
+	</div>
 </body>
 
 </html>
